@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         val etAmount = findViewById<EditText>(R.id.editTextNumberDecimal)
         val spinnerFrom = findViewById<Spinner>(R.id.spinner)
         val spinnerTo = findViewById<Spinner>(R.id.spinner3) // El segundo spinner para USD
-        val btnConvert = findViewById<Button>(R.id.btnConvert)
+        val btnConvert = findViewById<Button>(R.id.btnConvertir)
         val tvResult = findViewById<TextView>(R.id.tvResult)
         val btnHistory = findViewById<Button>(R.id.btnHistory)
 
