@@ -22,8 +22,8 @@ class MainActivity : AppCompatActivity() {
         val spinnerFrom = findViewById<Spinner>(R.id.spinner)
         val spinnerTo = findViewById<Spinner>(R.id.spinner3) // El segundo spinner para USD
         val btnConvert = findViewById<Button>(R.id.btnConvertir)
-        val tvResult = findViewById<TextView>(R.id.tvResult)
-        val btnHistory = findViewById<Button>(R.id.btnHistory)
+        val tvResult = findViewById<TextView>(R.id.btnResultado)
+        val btnHistory = findViewById<Button>(R.id.btnHistorial)
 
         //Llenar el primer Spinner (Centroamerica)
         val monedasCA = arrayOf("HNL", "GTQ", "CRC", "NIO", "SVC")
